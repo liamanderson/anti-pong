@@ -1,0 +1,39 @@
+html, body {
+  width: 100%;
+  height: 100%; }
+
+.board {
+  position: relative;
+  width: 100%;
+  height: 100%; }
+
+.paddle {
+  position: absolute;
+  width: 5px;
+  transition: all 0.3s; }
+
+.ball {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%; }
+
+.scoreboard {
+  position: absolute;
+  top: 45%;
+  left: 43%;
+  margin: 0 auto;
+  color: #ffffff;
+  opacity: 0;
+  transition: all 0.5s; }
+
+.scoreboard div.score {
+  display: inline-block;
+  border-right: 1px solid #ffffff;
+  padding: 0 25px;
+  font-size: 5em; }
+
+.scoreboard div.score:last-child {
+  border-right: none; }
+
+/*# sourceMappingURL=style.css.map */
