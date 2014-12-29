@@ -7,4 +7,4 @@ The point of this project was to build something quickly using coffeescript spac
 
 The default controls are as follows:
 - left paddle: up = W, down = S
-- right paddle: up = <up arrow>, down = <down arrow>
+- right paddle: up = [up arrow], down = [down arrow]
